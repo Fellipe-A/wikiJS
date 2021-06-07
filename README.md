@@ -288,16 +288,7 @@ O problema foi contornado após inserir tal depêndencia no package.json.
 Após isso, simplesmente fiz um *re-build* na imagem, reiniciei o serviço e tudo funcionou normalmente, como verificamos na imagem abaixo. 
 ![Homepage](https://i.ibb.co/x30zX4r/homepage.png) 
 # Conclusão
-Portanto, com a documentação realizada se torna fácil realizar o *deployment* em diversos ambientes com a facilidade de alguns comandos ou simplesmente automatizando alguns processos de deployment, tais como pipelines. 
-O diagrama abaixo nos dá uma visão geral acerca do Dockerfile apresentado nessa documentação.
 
-```mermaid
-graph LR
-A[Dockerfile] --> B(Build Assets)
-A --> C(Build Releases)
-B --> D{Docker build}
-C --> D
-D --> E[Image]
-```
+Portanto, com a documentação realizada se torna fácil realizar o *deployment* em diversos ambientes com a facilidade de alguns comandos ou simplesmente automatizando alguns processos de deployment, tais como pipelines. 
 
 Alguns contratempos foram encontrados durante o percurso, porém, contornados com soluções simples.
