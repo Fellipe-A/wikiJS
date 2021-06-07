@@ -1,6 +1,6 @@
 # WikiJS
 
-Esse documento tem o objetivo de demonstrar o passo a passo para a criação de um *Dockerfile* para a criação de uma imagem, e o *deployment* do *WikiJS*, um projeto *open-source* de *Wiki* escrito em *Javascript*. 
+Esse documento tem o objetivo de demonstrar o passo a passo da criação de um *Dockerfile* para a criação de uma imagem e o *deployment* do *WikiJS*, um projeto *open-source* de *Wiki* escrito em *Javascript*. 
 
 ## Repositório
 Estaremos utilizando o [repositório](https://github.com/Requarks/wiki) oficial do projeto, com a *release* mais atualizada. Nesse repositório encontramos vários arquivos com diferentes finalidades, tais como: Garantir a segurança da imagem, gerenciamento de *pipelines*, dependências da imagem, licença, entre outras. Para obter o repositório, utilizaremos o git.
