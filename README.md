@@ -116,7 +116,7 @@ A primeira etapa, descrita como *Build assets* é responsável pela instalação
     
     COPY ./.eslintrc.yml ./.eslintrc.yml
 
-Por fim, utilizando o Yarn um gerenciador de pacotes Javascript mais eficiente que o npm (gerenciador padrão do Node) é realizado a instalação das dependências e o *build* da aplicação.   
+Por fim, utilizando o Yarn um gerenciador de pacotes Javascript mais eficiente que o npm (gerenciador padrão do Node) é realizado a instalação das dependências e o *build* da aplicação. Após o *build* da aplicação, os arquivos desnecessários são removidos, reduzindo o tamanho da imagem.
 
     RUN yarn cache clean
     
